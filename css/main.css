@@ -29,6 +29,7 @@ a img {
     border: 0;
     max-height: 150px;
     max-width: 200px;
+    box-shadow: -2px 2px 5px #888;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oxygen', sans-serif;
@@ -595,4 +596,6 @@ label.valid {
     margin-bottom: 10px;
     text-align: center
 }
+
+
 
