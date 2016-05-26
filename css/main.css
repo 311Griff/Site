@@ -619,8 +619,11 @@ label.valid {
     color: white;
 }
 
+
 .italics {
     font-style: italic;
+    font-size: 14px;
+    color: #efefef;
 }
 
 
