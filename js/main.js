@@ -108,6 +108,9 @@ $(document).ready(function() {
             }, {
                 src: 'img/slider/04.jpg',
                 fade: 1000
+            }, {
+                src: 'img/slider/bg-11.jpg',
+                fade: 1000
             }
         ]
     })('overlay', {
