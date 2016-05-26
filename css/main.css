@@ -607,16 +607,22 @@ label.valid {
 
 #others-say h2 {
     color: white;
+    padding-top: 35px;
 }
 
 #others-say ul {
     list-style-type: none;
 }
 
-#others-say .quote {
-    margin-top: 20px;
+#others-say .quote i {
     font-size: 40px;
     color: white;
+}
+
+#others-say p.quote {
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
 }
 
 
