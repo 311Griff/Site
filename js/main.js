@@ -97,13 +97,13 @@ $(document).ready(function() {
         backgrounds: [
 
             {
-                src: 'img/slider/bg-9.jpg',
+                src: 'img/slider/bg-8.jpg',
                 fade: 1000
             }, {
                 src: 'img/slider/bg-10.jpg',
                 fade: 1000
             }, {
-                src: 'img/slider/bg-8.jpg',
+                src: 'img/slider/bg-9.jpg',
                 fade: 1000
             }, {
                 src: 'img/slider/04.jpg',
@@ -122,6 +122,20 @@ $(document).ready(function() {
     $("#vegas-prev").click(function() {
         $.vegas('previous');
     });
+
+
+    /*slick slider*/
+
+    $('.slickme').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        prevArrow:false,
+        nextArrow: false
+    });
+
+
 
 
 });

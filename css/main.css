@@ -598,4 +598,30 @@ label.valid {
 }
 
 
+/* =====  Others say section ======*/
+#others-say {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(52, 152, 219, .8);
+}
+
+#others-say h2 {
+    color: white;
+}
+
+#others-say ul {
+    list-style-type: none;
+}
+
+#others-say .quote {
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.italics {
+    font-style: italic;
+}
+
+
 
