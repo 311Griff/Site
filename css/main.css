@@ -27,6 +27,8 @@ a:hover, a:active {
 }
 a img {
     border: 0;
+    max-height: 150px;
+    max-width: 200px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oxygen', sans-serif;
@@ -173,6 +175,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     padding-top: 30%;
 }
+#grid .mix span {
+    color: #3498db;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+}
+
 .isotope-item {
     z-index: 2;
 }
@@ -540,7 +549,9 @@ label.valid {
     text-align: center;
     padding: 15px;
     margin: 5px 20px;
-    background: #efefef;
+    background: white;
+    border: 1px solid #3498db;
+    border-radius: 5px 10px 5px 10px;
 }
 
 
@@ -577,5 +588,11 @@ label.valid {
 .copyright p {
     padding: 35px;
     text-align: center;
+}
+
+.profile-buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center
 }
 
