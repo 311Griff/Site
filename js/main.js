@@ -97,13 +97,13 @@ $(document).ready(function() {
         backgrounds: [
 
             {
-                src: 'img/slider/01.jpg',
+                src: 'img/slider/bg-9.jpg',
                 fade: 1000
             }, {
-                src: 'img/slider/02.jpg',
+                src: 'img/slider/bg-10.jpg',
                 fade: 1000
             }, {
-                src: 'img/slider/03.jpg',
+                src: 'img/slider/bg-8.jpg',
                 fade: 1000
             }, {
                 src: 'img/slider/04.jpg',
