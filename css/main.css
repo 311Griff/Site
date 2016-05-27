@@ -113,6 +113,27 @@ h1, h2, h3, h4, h5, h6 {
     height: 248px;
     margin: 0 20px 20px 0;
 }
+
+#page-profile .copy {
+    font-size: 16px;
+}
+
+#page-profile .two-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    list-style-type: none;
+}
+
+#page-profile .two-columns li:before {
+    content: '\f05d';
+    font-size: 16px;
+    color: #757575;
+    margin: 0 8px;
+    font-family: 'FontAwesome';
+}
+
+
 #page-skills {
     padding: 75px 0;
     background: #f7f7f7;
@@ -595,6 +616,41 @@ label.valid {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center
+}
+
+
+/* =====  Others say section ======*/
+#others-say {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(52, 152, 219, .8);
+}
+
+#others-say h2 {
+    color: white;
+    padding-top: 35px;
+}
+
+#others-say ul {
+    list-style-type: none;
+}
+
+#others-say .quote i {
+    font-size: 35px;
+    color: white;
+}
+
+#others-say p.quote {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.italics {
+    font-style: italic;
+    font-size: 14px;
+    color: #efefef;
 }
 
 
